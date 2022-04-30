@@ -8,7 +8,7 @@ export default function Header({menuOpen, setMenuOpen }) {
     <div className={'Header ' + (menuOpen &&  'active')}>
         <div className='Wrapper'>
             <div className="leftHeader">
-                <a href='#Intro' className='Logo'>Welcome</a>
+                <a href='#Intro' className='Logo'>Making it possible...</a>
                 <div className='itemContainer'>
                   <LinkedInIcon className='headerIcon'/>
                   <span>Nikai Delfgou</span>
